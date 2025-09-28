@@ -36,36 +36,24 @@ html {
     text-align: center;
     color: aliceblue;
 }
-#about{
-    margin-top: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:#e600b8;
-    padding: 85px 20px 70px 20px;
-    scroll-behavior: smooth;
 
+#about{
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color:#e600b8;
+    padding: 85px 20px  20px;
 }
 
-
 .about2{
-    text-align: center;
+    text-align: left;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    display: block;
     left: -500px;
     top: 20% auto;
     width: 60%;
     height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(214, 36, 36, 0.1);
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)rgba(225, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-    border-radius: 10px 60px 30px;
+    margin: 40px;
 }
 
 .Images{
@@ -152,77 +140,3 @@ html {
 .Services a:hover{
     background-color: #910091;
 }
-
-#contact{
-    margin-top: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #e600b8;
-    padding: 85px 20px 70px 20px;
-    scroll-behavior: smooth;
-}
-
-.contact2{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    display: block;
-    left: -500px;
-    top: 20% auto;
-    width: 60%;
-    height: 70% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(214, 36, 36, 0.1);
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)rgba(225, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-    border-radius: 10px 60px 30px;
-}
-.contact-form {
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-family: sans-serif;
-  }
-
-  .contact-form legend {
-    display: block;
-    width: 80px auto;
-    margin-bottom: 0px;
-    font-weight: bold;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-
-  .contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #ff00d4;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-  .contact-form button:hover {
-    background-color: #e600b8;
-  }

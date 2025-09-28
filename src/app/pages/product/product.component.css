@@ -1,0 +1,152 @@
+
+
+.juices-container {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 85px 20px 70px 20px;
+}
+.juices-title {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#Juices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  gap: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.juice-item{
+  position: relative;
+    left: 28%;
+    top: -80px;
+    display: block;
+    width: 40% auto;
+    height: 90% auto;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 5px solid rgb(255, 0, 212);
+    border-radius: 10px 60px 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 255, 0, 0.5));
+    backdrop-filter: blur(20px);
+}
+.juice-item p {
+  margin-top: 8px;
+}
+
+.cake-container {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 85px 20px 70px 20px;
+}
+.cake-title {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#Cake {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  gap: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.cake-item {
+  margin-top: 8px;
+  position: relative;
+    left: 28%;
+    top: -80px;
+    display: block;
+    width: 40% auto;
+    height: 90% auto;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 5px solid rgb(255, 0, 212);
+    border-radius: 10px 60px 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 255, 0, 0.5));
+    backdrop-filter: blur(20px);
+}
+.cake-item p {
+  margin-top: 8px;
+
+}
+
+.Ice-cream {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 85px 20px 70px 20px;
+}
+.Icecream-title {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#ice-cream{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  gap: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.Ice-item p {
+  margin-top: 8px;
+}
+
+
+.Mousse {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 85px 20px 70px 20px;
+}
+.mousse-title {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#mousse{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  gap: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.mousse-item p {
+  margin-top: 8px;
+}
+
+.Goodies {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 85px 20px 70px 20px;
+}
+.goodies-title {
+  font-family: monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#goodies{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  gap: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.goodies-item p {
+  margin-top: 8px;
+}

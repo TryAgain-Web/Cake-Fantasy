@@ -19,6 +19,11 @@
     transition: 0.3s;
 }
 
-.navbar a:hover {
+.location a:hover {
     color: black;
+}
+
+.Name{
+    float: left;
+
 }
