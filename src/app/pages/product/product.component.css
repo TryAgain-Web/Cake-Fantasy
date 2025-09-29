@@ -19,21 +19,7 @@
   text-align: center;
 }
 
-.juice-item{
-  position: relative;
-    left: 28%;
-    top: -80px;
-    display: block;
-    width: 40% auto;
-    height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-    border-radius: 10px 60px 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 255, 0, 0.5));
-    backdrop-filter: blur(20px);
-}
+
 .juice-item p {
   margin-top: 8px;
 }

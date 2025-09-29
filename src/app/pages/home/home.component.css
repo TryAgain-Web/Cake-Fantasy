@@ -1,47 +1,42 @@
-html {
-    scroll-behavior: smooth;
-    background-color: #e600b8;
-}
 .Title {
     color: rgb(255, 255, 255);
     padding-left: 10px;
 }
+.Home{
+  background-image: url('/assets/Images/Background2(blurred).jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100% ;
+    z-index: 1000;
+    padding-top: 100px;
+}
 
 #home{
-    margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    padding: 70px;
-    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+    padding : 70px;
 }
 
 .header{
+  text-align: center;
     position: relative;
     left: 28%;
-    top: -80px;
     display: block;
     width: 40%;
     height: 90%;
+    margin-top: -100px;
     margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-    border-radius: 10px 60px 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 255, 0, 0.5));
-    backdrop-filter: blur(20px);
-}
-.header{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: aliceblue;
+    box-shadow: 0% auto rgba(0, 0, 0, 0.37);
+
 }
 
+
 #about{
+    background-color: #ff00cc; /* solid pink */
     margin: 40px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    color:#e600b8;
+    color:#ffffff;
     padding: 85px 20px  20px;
 }
 
@@ -57,7 +52,7 @@ html {
 }
 
 .Images{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
     display: grid;
     grid-auto-flow: column;
@@ -65,7 +60,8 @@ html {
     font-family: monospace;
 }
 
-.strawberry{
+
+.Lemon{
     display: block;
     left: -500px;
     top: 20% auto;
@@ -82,7 +78,11 @@ html {
     border: 5px solid rgb(255, 0, 212);
 }
 
-.vanilla{
+.Lemon s a :hover{
+  animation: forwards;
+}
+
+.Chocolate{
     display: block;
     left: -500px;
     top: 20% auto;
@@ -100,7 +100,7 @@ html {
 
 }
 
-.chocolate{
+.Ice-Cream{
     display: block;
     left: -500px;
     top: 20% auto;
