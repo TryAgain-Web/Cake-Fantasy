@@ -1,9 +1,9 @@
 
 
 .juices-container {
-  text-align: center;
-  margin-bottom: 20px;
-  padding: 85px 20px 70px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 85px 20px 70px 20px;
 }
 .juices-title {
   font-family: monospace;
@@ -13,17 +13,43 @@
 
 #Juices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  font-family: monospace;
+  margin-top: 20px;
+}
+
+
+.juice-item {
+  background: #f1f5f9;
+  border: 1px ;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ;
+  }
+
+.juice-item a.hover {
+  transform: scale(1.05);
+}
+
+.juice-item img {
+  max-width: 100px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.juice-item alt {
   text-align: center;
 }
 
-
-.juice-item p {
-  margin-top: 8px;
+@media (max-width:768px){
+  #juices {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
-
 .cake-container {
   text-align: center;
   margin-bottom: 20px;
@@ -37,30 +63,26 @@
 
 #Cake {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  font-family: monospace;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .cake-item {
-  margin-top: 8px;
-  position: relative;
-    left: 28%;
-    top: -80px;
-    display: block;
-    width: 40% auto;
-    height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-    border-radius: 10px 60px 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 255, 0, 0.5));
-    backdrop-filter: blur(20px);
+  background: #f1f5f9;
+  border: 1px ;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ;
 }
-.cake-item p {
-  margin-top: 8px;
+.cake-item img {
+max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
 
 }
 
@@ -83,9 +105,22 @@
   text-align: center;
 }
 
+.Ice-item {
+  background: #f1f5f9;
+  border: 1px ;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s
+}
 
-.Ice-item p {
-  margin-top: 8px;
+.Ice-item img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
 }
 
 
@@ -109,8 +144,23 @@
 }
 
 
-.mousse-item p {
-  margin-top: 8px;
+.mousse-item  {
+  background: #f1f5f9;
+  border: 1px ;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s
+
+}
+
+.mousse-item img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
 }
 
 .Goodies {

@@ -1,56 +1,48 @@
 <div class="juices-container">
     <h1 class="juices-title">Juices</h1>
     <div id="Juices">
-        <div class="juice-item">
-          <ul>
-            <li *ngFor="let juice of Juices">
-              <img [src]="juice.image" [alt]="juice.name" width="100"/>
-              {{juice.name}}
-            </li>
-          </ul>
-        </div>
-
-
-
-        </div>
+          <section *ngFor="let juice of Juices" class="juice-item">
+            <img [src]="juice.image" [alt]="juice.name" width="100"/>
+            {{juice.name}}
+          </section>
     </div>
+</div>
 
   <div class="cake-container">
     <h1 class="cake-title">Cake Slices</h1>
       <div id="Cake">
-        <div class="cake-item">
-          <ul>
-            <li *ngFor="let Food of cakes">
+
+
+            <section *ngFor="let Food of cakes" class="cake-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
-            </li>
-          </ul>
-        </div>
+            </section>
+
+
       </div>
   </div>
 
   <div class="Ice-cream">
     <h1 class="Icecream-title">Organic Ice-cream</h1>
     <div id="ice-cream">
-      <div class="Ice-item">
-        <ul>
-        <li *ngFor="let Food of ices">
+
+
+        <section *ngFor="let Food of ices" class="Ice-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
-            </li>
-          </ul>
+            </section>
+
     </div>
   </div>
 
   <div class="Mousse">
     <h1 class="mousse-title">Mousse</h1>
     <div id="mousse">
-      <div class="mousse-item">
-                <ul>
-        <li *ngFor="let Food of mousses">
+
+        <section *ngFor="let Food of mousses" class="mousse-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
-            </li>
-          </ul>
+          </section>
+
     </div>
   </div>

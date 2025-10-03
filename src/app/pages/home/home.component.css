@@ -18,13 +18,12 @@
 }
 
 .header{
-  text-align: center;
+  text-align: right;
     position: relative;
     left: 28%;
     display: block;
     width: 40%;
     height: 90%;
-    margin-top: -100px;
     margin: 40px auto;
     box-shadow: 0% auto rgba(0, 0, 0, 0.37);
 
