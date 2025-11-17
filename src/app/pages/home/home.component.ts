@@ -16,6 +16,13 @@ export class HomeComponent implements OnInit {
 
   RNR = '../assets/Images/Icream/RNR.jpeg'
   name3 = 'Ice-Cream'
+
+  lemonM = '../assets/Images/Mousse/lemon.jpg'
+  name4 = 'Lemon Mousse'
+
+  Oatcookie = '../assets/Images/Goodies/oatmeal.jpg'
+  name5 = 'Oatmeal Cookie'
+
   constructor() { }
 
   ngOnInit(): void {

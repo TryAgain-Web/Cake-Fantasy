@@ -1,132 +1,159 @@
-.Title {
-    color: rgb(255, 255, 255);
-    padding-left: 10px;
-}
-.Home{
-  background-image: url('/assets/Images/Background2(blurred).jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100% ;
-    z-index: 1000;
-    padding-top: 100px;
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
 }
 
-#home{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    padding : 70px;
-}
-
-.header{
-  text-align: right;
+.wave svg {
     position: relative;
-    left: 28%;
     display: block;
-    width: 40%;
-    height: 90%;
-    margin: 40px auto;
-    box-shadow: 0% auto rgba(0, 0, 0, 0.37);
+    width: calc(131% + 1.3px);
+    height: 272px;
+}
 
+.wave .shape-fill {
+    fill: #e600b8;
 }
 
 
-#about{
-    background-color: #ff00cc; /* solid pink */
-    margin: 40px;
+.Home{
+    display: flex;
+    min-height: 80vh;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    padding: 70px;
+}
+
+
+.title {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.title h2 span{
+  color: white;
+}
+
+.title p {
+  font-size: 1.3rem;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  max-height: 400px;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.About h1{
+    margin: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    color:#ffffff;
+    color:#000000;
     padding: 85px 20px  20px;
 }
 
-.about2{
-    text-align: left;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    left: -500px;
-    top: 20% auto;
-    width: 60%;
-    height: 90% auto;
-    margin: 40px;
+.about{
+    background-image:url('/assets/Images/About.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0px 10px 0px
+}
+
+.about p{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  left: -500px;
+  top: 20% auto;
+  width: 60%;
+  height: 90% auto;
+  margin: 30px;
+
+}
+
+.Products{
+
+}
+
+.Products h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.carousel{
+  margin: 100px auto;
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  text-decoration: none;
 }
 
 .Images{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    display: grid;
-    grid-auto-flow: column;
-    gap: 20px;
-    font-family: monospace;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  animation: carousel 10s linear infinite;
+  padding-right: 2em;
 }
 
 
-.Lemon{
-    display: block;
-    left: -500px;
-    top: 20% auto;
-    width: 50% auto;
-    height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(214, 36, 36, 0.1);
+.item{
+  flex:0 0 10em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  border-radius: 10px;
+}
+
+.item img {
+
     border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)rgba(225, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
     border: 5px solid rgb(255, 0, 212);
 }
 
-.Lemon s a :hover{
-  animation: forwards;
+
+@keyframes carousel {
+  from {translate: 0;}
+  to {translate: -100%;}
 }
-
-.Chocolate{
-    display: block;
-    left: -500px;
-    top: 20% auto;
-    width: 50% auto;
-    height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(214, 36, 36, 0.1);
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)rgba(225, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-
-}
-
-.Ice-Cream{
-    display: block;
-    left: -500px;
-    top: 20% auto;
-    width: 50% auto;
-    height: 90% auto;
-    margin: 40px auto;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(214, 36, 36, 0.1);
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)rgba(225, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border: 5px solid rgb(255, 0, 212);
-
-}
-
 .Services{
     margin: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
 }
 .Services a{
     text-decoration: none;
-    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
@@ -138,4 +165,107 @@
 }
 .Services a:hover{
     background-color: #910091;
+}
+
+/* phones*/
+@media screen and (max-width: 600px) {
+
+  .Home {
+    flex-direction: column;
+  }
+
+  .title h2 span{
+  color: rgb(19, 19, 19);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1px);
+    height: 272px;
+}
+
+  .hero {
+
+    text-align: center;
+  }
+
+  .title {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero img {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+.About h1{
+ text-align: center;
+}
+
+.about p{
+  text-align: center;
+  padding-left: 50px;
+}
+
+.carousel{
+  margin: 100px auto;
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  text-decoration: none;
+}
+
+.Images{
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  animation: carousel 10s linear infinite;
+  padding-right: 2em;
+}
+
+
+.item{
+  flex:0 0 10em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  border-radius: 10px;
+}
+
+.item img {
+
+    border-radius: 10px;
+
+
+    border: 5px solid rgb(255, 0, 212);
+}
+
+
+@keyframes carousel {
+  from {translate: 0;}
+  to {translate: -100%;}
+}
+
+
+
+
+}
+
+/* tablets*/
+@media screen and (max-width: 1024px) {
+
+.title h2 span{
+  color: rgb(19, 19, 19);
+}
+
 }

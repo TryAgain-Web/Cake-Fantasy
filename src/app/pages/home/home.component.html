@@ -1,25 +1,26 @@
  <body>
 
-  <section class="Home">
-<div id="home">
-              <h1 class="home">Yummy sweeties delivered to your dininer table</h1>
-              <p>We serve the most delicious pastries in town.</p>
-              <div class="header">
- <img src= {{scr}} alt="Picture of Tina's Cupcake" height="300px">
-              </div>
- </div>
+  <div class="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
 
+<section class="Home">
+    <div class="title">
+      <h2>Yummy <span>sweeties</span> delivered to your dininer table</h2>
+    <p>We serve the most delicious pastries in town</p>
+    </div>
+      <div  class="hero">
+      <img src={{scr}} alt="Picture of Tina's Cupcake" >
+      </div>
 
+</section>
 
-
-  </section>
-
-
-
-
-        <h1 id="about">Cake Fantasy</h1>
-  <section class="about2">
-        <p>Cake Fantasy began in 2020 with a simple passion for baking and creating
+<div class="About">
+  <h1>Cake Fantasy</h1>
+  <div class="about">
+        <p class="paragraph">Cake Fantasy began in 2020 with a simple passion for baking and creating
           delicious sweet treats that bring people together. What started as a
           small home-based project quickly grew into a beloved local bakery, known for
           our handcrafted cakes, pastries, cookies, and more. At Cake Fantasy, we believe
@@ -30,28 +31,75 @@
           Cake Fantasy is here to make your day a little sweeter.
           Come visit us or explore our online store to discover your next favorite treat.</p>
         <p> From our kitchen to your table—baking happiness, one bite at a time.</p>
-  </section>
+  </div>
+</div>
 
-  <div class="Images">
-    <section class="Lemon">
-      <img src= {{Lemon}} alt= {{name}} height="200px">
-    <h3>Lemon Cake</h3>
-    </section>
 
-    <section class="Chocolate">
-    <img src= {{Cho}} alt= {{name2}} height="200px">
-    <h3>Chocolate Drink</h3>
-    </section>
+  <div class="Products">
+    <h2>Our Products</h2>
+    <div class="carousel">
+      <div class="Images">
+        <div class="item">
+          <img src= {{Lemon}} alt= {{name}} height="200px">
+          <h3>Lemon Cake</h3>
+        </div>
 
-    <section class="Ice-Cream">
-    <img src= {{RNR}} alt= {{name3}} height="200px">
-    <h3>Rum n' Raisin</h3>
-    </section>
+        <div class="item">
+          <img src= {{Cho}} alt= {{name2}} height="200px">
+          <h3>Chocolate Drink</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{RNR}} alt= {{name3}} height="200px">
+          <h3>Rum n' Raisin</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{lemonM}} alt= {{name4}} height="200px">
+          <h3>Lemon Mousse</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{Oatcookie}} alt= {{name5}} height="200px">
+          <h3>Oatmeal Cookie</h3>
+        </div>
+      </div>
+
+      <div aria-hidden class="Images">
+        <div class="item">
+          <img src= {{Lemon}} alt= {{name}} height="200px">
+          <h3>Lemon Cake</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{Cho}} alt= {{name2}} height="200px">
+          <h3>Chocolate Drink</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{RNR}} alt= {{name3}} height="200px">
+          <h3>Rum n' Raisin</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{lemonM}} alt= {{name4}} height="200px">
+          <h3>Lemon Mousse</h3>
+        </div>
+
+        <div class="item">
+          <img src= {{Oatcookie}} alt= {{name5}} height="200px">
+          <h3>Oatmeal Cookie</h3>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
-  <section class="Services">
-      <p><a routerLink="product">Products</a> </p>
+<section class="Services">
+      <p><a routerLink="product">See more of our Products</a> </p>
   </section>
+
 </body>
 
 
