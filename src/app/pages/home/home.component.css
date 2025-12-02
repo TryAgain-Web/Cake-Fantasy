@@ -23,7 +23,7 @@
 
 .Home{
     display: flex;
-    min-height: 80vh;
+
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-content: space-between;
@@ -89,10 +89,6 @@
   width: 60%;
   height: 90% auto;
   margin: 30px;
-
-}
-
-.Products{
 
 }
 
@@ -164,6 +160,54 @@
     transition: 0.3s;
 }
 .Services a:hover{
+    background-color: #910091;
+}
+
+.Contact {
+
+  display: flex;
+  margin-top: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  padding: 0px 70px 10px 70px;
+}
+
+
+.info {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 20px;
+  }
+
+.info p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 0, 234);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn a:hover{
     background-color: #910091;
 }
 
@@ -256,7 +300,18 @@
   to {translate: -100%;}
 }
 
+.Contact {
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+
+.info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  }
 
 
 }
