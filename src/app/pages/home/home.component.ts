@@ -23,7 +23,12 @@ export class HomeComponent implements OnInit {
   Oatcookie = '../assets/Images/Goodies/oatmeal.jpg'
   name5 = 'Oatmeal Cookie'
 
-  constructor() { }
+
+
+  constructor() {
+
+    console.log('Home component initialized')
+   }
 
   ngOnInit(): void {
   }

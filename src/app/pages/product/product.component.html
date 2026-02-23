@@ -4,6 +4,7 @@
           <section *ngFor="let juice of Juices" class="juice-item">
             <img [src]="juice.image" [alt]="juice.name" width="100"/>
             {{juice.name}}
+            {{juice.btn}}
           </section>
     </div>
 </div>
@@ -16,6 +17,7 @@
             <section *ngFor="let Food of cakes" class="cake-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
+              {{Food.btn}}
             </section>
 
 
@@ -30,6 +32,7 @@
         <section *ngFor="let Food of ices" class="Ice-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
+              {{Food.btn}}
             </section>
 
     </div>
@@ -38,7 +41,6 @@
   <div class="Mousse">
     <h1 class="mousse-title">Mousse</h1>
     <div id="mousse">
-
         <section *ngFor="let Food of mousses" class="mousse-item">
               <img [src]="Food.image" [alt]="Food.name" width="100"/>
               {{Food.name}}
