@@ -12,7 +12,9 @@ import { AuthComponent } from './auth/auth.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { RecipesComponent } from './pages/recipes/recipes.component';
+
 import { AdminComponent } from './pages/admin/admin.component';
+
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { AdminComponent } from './pages/admin/admin.component';
     RegisterComponent,
     RecipesComponent,
     AdminComponent
+    RecipesComponent
   ],
   imports: [
     BrowserModule,
